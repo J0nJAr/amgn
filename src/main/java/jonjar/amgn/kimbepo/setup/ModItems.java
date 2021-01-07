@@ -7,7 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 
 public class ModItems {
 
-    public static final RegistryObject<Item> DIRT_INGOT = Registration.ITEMS.register("dirt_ingot", () ->
+    public static final RegistryObject<Item> DIRT_INGOT = Registration.ITEMS.register("chocolate_ingot", () ->
             new Item(new Item.Properties().group(ItemGroup.MATERIALS)));
 
     static void register() { }
