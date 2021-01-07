@@ -42,7 +42,7 @@ displayName="amgn" #mandatory
 credits="JonJAr" #optional
 
 # 제작자
-authors="Kimbepo, Macham" #optional
+authors="KimBepo, Macham" #optional
 
 # 모드설명, 여러줄가능 (#mandatory)
 description='''
