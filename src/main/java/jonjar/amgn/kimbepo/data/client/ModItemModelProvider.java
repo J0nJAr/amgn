@@ -22,13 +22,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("chocolate_ore", modLoc("block/chocolate_ore"));
         withExistingParent("chocolate_block", modLoc("block/chocolate_block"));
 
-        ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
+        ModelFile itemGenerated = getExistingFile(mcLoc("assets/amgn-mod/textures/item/generated"));
 
-        builder(itemGenerated, "item/chocolate_ingot");
+        builder(itemGenerated, "assets/amgn-mod/textures/item/chocolate_ingot");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name){
-        return getBuilder(name).parent(itemGenerated).texture("layer0", "item/" + name);
+        return getBuilder(name).parent(itemGenerated).texture("layer0", "assets/amgn-mod/textures/item/" + name);
         // TODO : 리소스팩에 대한 연구도 필요한가?
     }
 }
