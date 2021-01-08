@@ -1,5 +1,6 @@
-package jonjar.amgn.kimbepo.setup;
+package jonjar.amgn.macham.base;
 
+import jonjar.amgn.kimbepo.setup.Registration;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.SoundType;
@@ -22,7 +23,7 @@ public class ModBlocks {
                     .sound(SoundType.METAL)));
 
 
-    static void register(){}
+    public static void register(){}
 
     private static <T extends Block> RegistryObject<T> registerNoItem(String name, Supplier<T> block){
         return Registration.BLOCKS.register(name,block);

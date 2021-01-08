@@ -1,6 +1,8 @@
 package jonjar.amgn.kimbepo.setup;
 
 import jonjar.amgn.Amgn;
+import jonjar.amgn.macham.base.ModBlocks;
+
 import net.minecraft.block.Block;
 import net.minecraft.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
