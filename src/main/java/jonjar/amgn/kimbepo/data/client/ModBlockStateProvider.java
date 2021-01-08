@@ -17,5 +17,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         simpleBlock(ModBlocks.CHOCOLATE_ORE.get());
         simpleBlock(ModBlocks.CHOCOLATE_BLOCK.get());
+        // fenceBlock() 과 같이 한 블럭 템플릿 메소드가 존재한다.
     }
 }
