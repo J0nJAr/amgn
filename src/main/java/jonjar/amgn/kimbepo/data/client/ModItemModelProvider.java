@@ -22,9 +22,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         withExistingParent("chocolate_ore", modLoc("block/chocolate_ore"));
         withExistingParent("chocolate_block", modLoc("block/chocolate_block"));
 
-        ModelFile itemGenerated = getExistingFile(mcLoc("assets/amgn-mod/textures/item/generated"));
+        ModelFile itemGenerated = getExistingFile(mcLoc("item/generated"));
 
-        builder(itemGenerated, "assets/amgn-mod/textures/item/chocolate_ingot");
+        builder(itemGenerated, "chocolate_ingot");
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name){
