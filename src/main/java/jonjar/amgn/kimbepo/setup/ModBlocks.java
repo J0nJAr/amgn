@@ -14,7 +14,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
 
     public static final RegistryObject<Block> CHOCOLATE_ORE = register("chocolate_ore", () ->
-            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(0).sound(SoundType.GROUND)));
+            new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).harvestLevel(1).sound(SoundType.STONE)));
 
     public static final RegistryObject<Block> CHOCOLATE_BLOCK = register("chocolate_block", () ->
             new Block(AbstractBlock.Properties.create(Material.ROCK).hardnessAndResistance(3, 10).sound(SoundType.GROUND)));
