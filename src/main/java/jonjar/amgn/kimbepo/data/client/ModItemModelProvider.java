@@ -28,7 +28,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     }
 
     private ItemModelBuilder builder(ModelFile itemGenerated, String name){
-        return getBuilder(name).parent(itemGenerated).texture("layer0", "assets/amgn-mod/textures/item/" + name);
+        return getBuilder(name).parent(itemGenerated).texture("layer0", "item/" + name);
         // TODO : 리소스팩에 대한 연구도 필요한가?
     }
 }
