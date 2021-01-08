@@ -1,5 +1,5 @@
 {
   "item.amgn-mod.chocolate_ingot": "Chocolate Ingot",
-  "item.amgn-mod.chocolate_ore": "Chocolate Ore",
-  "item.amgn-mod.chocolate_block": "Chocolate Block"
+  "block.amgn-mod.chocolate_ore": "Chocolate Ore",
+  "block.amgn-mod.chocolate_block": "Chocolate Block"
 }
